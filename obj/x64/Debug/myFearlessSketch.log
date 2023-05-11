@@ -1,0 +1,21 @@
+﻿  ofApp.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(326,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(331,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(912,12): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(913,12): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(914,12): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(915,12): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  libusb-1.0.lib(core.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library bin\myFearlessSketch_debug.lib and object bin\myFearlessSketch_debug.exp
+  Generating code
+  Finished generating code
+  myFearlessSketch.vcxproj -> C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\apps\myApps\myFearlessSketch\bin\myFearlessSketch_debug.exe
+  
+  	                   2	C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\libs\fmod\lib\vs\x64\
+  	  *EXTRA File 		 6942208	C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\apps\myApps\myFearlessSketch\bin\FreeImage.dll
+  
+  	                   1	C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\libs\FreeImage\lib\vs\x64\
+  	  *EXTRA File 		 1826304	C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\apps\myApps\myFearlessSketch\bin\fmod.dll
+  	  *EXTRA File 		 2041856	C:\Users\bogda\Desktop\diverse\anul_3\Sem2\Multimedia Computing\type2\of_v0.11.2_vs2017_release\apps\myApps\myFearlessSketch\bin\fmodL.dll
