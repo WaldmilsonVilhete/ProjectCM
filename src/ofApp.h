@@ -2,7 +2,11 @@
 
 #include "ofMain.h"
 #include "Utils.h"
-#include "Point.h"
+#include "MyPoint.h"
+#include <opencv2/features2d.hpp>
+
+
+using cv::ORB;
 
 class ofApp : public ofBaseApp {
 
@@ -26,21 +30,29 @@ public:
 	void DrawScreen1();
 	void LoadScreen2();
 	void DrawScreen2();
+	void drawDraggedImage();
 
 	Utils Tool;
 	ofImage ImageLoad;
-	ofImage ImageVector[3];
+	ofImage ImageVector[9];
 	ofImage ButtonVector1[5];
-	int loadedImageNumber;
+	ofFile *textFile, textFile1, textFile2, textFile3;
+	int loadedImageNumber, lowbownd, highbound;
 	int screenLoader;
 	bool firstResize;
 	bool loadNewImage;
 	float timer;
 	int width, heigh;
-	Point relativePointLeft, relativePointRight;
-	Point uploadLUCorner, uploadRDCorner;
-	Point pictureLUUpload, pictureRDUpload;
+	MyPoint relativePointLeft, relativePointRight;
+	MyPoint uploadLUCorner, uploadRDCorner;
+	MyPoint pictureLUUpload, pictureRDUpload;
 	ofTrueTypeFont 	vagRounded;
+	ofTrueTypeFont	verdana14;
 	string eventString;
+	string path;
+	string foundImage;
+	vector <string> imageNames;
+	vector <ofImage> draggedImages;
+	glm::vec2 dragPt;
 
 };
